@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64DF819F3351115A0A651351 /* Pods_YHWeatherDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB603D67A989B5E98ECA672 /* Pods_YHWeatherDemo.framework */; };
+		EAEDFDD71EA706D000031530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFDD61EA706D000031530 /* main.m */; };
+		EAEDFDDA1EA706D000031530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFDD91EA706D000031530 /* AppDelegate.m */; };
+		EAEDFDDD1EA706D000031530 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFDDC1EA706D000031530 /* ViewController.m */; };
+		EAEDFDE01EA706D000031530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEDFDDE1EA706D000031530 /* Main.storyboard */; };
+		EAEDFDE21EA706D000031530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEDFDE11EA706D000031530 /* Assets.xcassets */; };
+		EAEDFDE51EA706D000031530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEDFDE31EA706D000031530 /* LaunchScreen.storyboard */; };
+		EAEDFDEF1EA7075100031530 /* YHWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFDEE1EA7075100031530 /* YHWeatherModel.m */; };
+		EAEDFDF51EA732D200031530 /* YHTideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFDF41EA732D200031530 /* YHTideModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CB603D67A989B5E98ECA672 /* Pods_YHWeatherDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHWeatherDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7635773271D3C787C58AFA21 /* Pods-YHWeatherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHWeatherDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHWeatherDemo/Pods-YHWeatherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EAEDFDD21EA706D000031530 /* YHWeatherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHWeatherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEDFDD61EA706D000031530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAEDFDD81EA706D000031530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAEDFDD91EA706D000031530 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAEDFDDB1EA706D000031530 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAEDFDDC1EA706D000031530 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAEDFDDF1EA706D000031530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAEDFDE11EA706D000031530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAEDFDE41EA706D000031530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAEDFDE61EA706D000031530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAEDFDED1EA7075100031530 /* YHWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHWeatherModel.h; sourceTree = "<group>"; };
+		EAEDFDEE1EA7075100031530 /* YHWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHWeatherModel.m; sourceTree = "<group>"; };
+		EAEDFDF31EA732D200031530 /* YHTideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTideModel.h; sourceTree = "<group>"; };
+		EAEDFDF41EA732D200031530 /* YHTideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTideModel.m; sourceTree = "<group>"; };
+		F229847F015A1F4BFDF59640 /* Pods-YHWeatherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHWeatherDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHWeatherDemo/Pods-YHWeatherDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAEDFDCF1EA706D000031530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DF819F3351115A0A651351 /* Pods_YHWeatherDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E59F7D26023902AA21400922 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F229847F015A1F4BFDF59640 /* Pods-YHWeatherDemo.debug.xcconfig */,
+				7635773271D3C787C58AFA21 /* Pods-YHWeatherDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAEDFDC91EA706D000031530 = {
+			isa = PBXGroup;
+			children = (
+				EAEDFDD41EA706D000031530 /* YHWeatherDemo */,
+				EAEDFDD31EA706D000031530 /* Products */,
+				E59F7D26023902AA21400922 /* Pods */,
+				F52CAF2E419BFAD5282FAD94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAEDFDD31EA706D000031530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDFDD21EA706D000031530 /* YHWeatherDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEDFDD41EA706D000031530 /* YHWeatherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDFDEC1EA7074500031530 /* Classes */,
+				EAEDFDD81EA706D000031530 /* AppDelegate.h */,
+				EAEDFDD91EA706D000031530 /* AppDelegate.m */,
+				EAEDFDDB1EA706D000031530 /* ViewController.h */,
+				EAEDFDDC1EA706D000031530 /* ViewController.m */,
+				EAEDFDDE1EA706D000031530 /* Main.storyboard */,
+				EAEDFDE11EA706D000031530 /* Assets.xcassets */,
+				EAEDFDE31EA706D000031530 /* LaunchScreen.storyboard */,
+				EAEDFDE61EA706D000031530 /* Info.plist */,
+				EAEDFDD51EA706D000031530 /* Supporting Files */,
+			);
+			path = YHWeatherDemo;
+			sourceTree = "<group>";
+		};
+		EAEDFDD51EA706D000031530 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDFDD61EA706D000031530 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAEDFDEC1EA7074500031530 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDFDED1EA7075100031530 /* YHWeatherModel.h */,
+				EAEDFDEE1EA7075100031530 /* YHWeatherModel.m */,
+				EAEDFDF31EA732D200031530 /* YHTideModel.h */,
+				EAEDFDF41EA732D200031530 /* YHTideModel.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		F52CAF2E419BFAD5282FAD94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CB603D67A989B5E98ECA672 /* Pods_YHWeatherDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAEDFDD11EA706D000031530 /* YHWeatherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEDFDE91EA706D000031530 /* Build configuration list for PBXNativeTarget "YHWeatherDemo" */;
+			buildPhases = (
+				8FADB4EC6F9FCE4077FCCA4F /* [CP] Check Pods Manifest.lock */,
+				EAEDFDCE1EA706D000031530 /* Sources */,
+				EAEDFDCF1EA706D000031530 /* Frameworks */,
+				EAEDFDD01EA706D000031530 /* Resources */,
+				8DA2962E21C3109468C91818 /* [CP] Embed Pods Frameworks */,
+				5A3335724264448B40965C57 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHWeatherDemo;
+			productName = YHWeatherDemo;
+			productReference = EAEDFDD21EA706D000031530 /* YHWeatherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAEDFDCA1EA706D000031530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘欢庆";
+				TargetAttributes = {
+					EAEDFDD11EA706D000031530 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = G25YSPXR6H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EAEDFDCD1EA706D000031530 /* Build configuration list for PBXProject "YHWeatherDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAEDFDC91EA706D000031530;
+			productRefGroup = EAEDFDD31EA706D000031530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAEDFDD11EA706D000031530 /* YHWeatherDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAEDFDD01EA706D000031530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEDFDE51EA706D000031530 /* LaunchScreen.storyboard in Resources */,
+				EAEDFDE21EA706D000031530 /* Assets.xcassets in Resources */,
+				EAEDFDE01EA706D000031530 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A3335724264448B40965C57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHWeatherDemo/Pods-YHWeatherDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DA2962E21C3109468C91818 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHWeatherDemo/Pods-YHWeatherDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FADB4EC6F9FCE4077FCCA4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAEDFDCE1EA706D000031530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEDFDDD1EA706D000031530 /* ViewController.m in Sources */,
+				EAEDFDEF1EA7075100031530 /* YHWeatherModel.m in Sources */,
+				EAEDFDDA1EA706D000031530 /* AppDelegate.m in Sources */,
+				EAEDFDF51EA732D200031530 /* YHTideModel.m in Sources */,
+				EAEDFDD71EA706D000031530 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAEDFDDE1EA706D000031530 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEDFDDF1EA706D000031530 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAEDFDE31EA706D000031530 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEDFDE41EA706D000031530 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAEDFDE71EA706D000031530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAEDFDE81EA706D000031530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAEDFDEA1EA706D000031530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F229847F015A1F4BFDF59640 /* Pods-YHWeatherDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G25YSPXR6H;
+				INFOPLIST_FILE = YHWeatherDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiuHuanQing.YHWeatherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAEDFDEB1EA706D000031530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7635773271D3C787C58AFA21 /* Pods-YHWeatherDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G25YSPXR6H;
+				INFOPLIST_FILE = YHWeatherDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiuHuanQing.YHWeatherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAEDFDCD1EA706D000031530 /* Build configuration list for PBXProject "YHWeatherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEDFDE71EA706D000031530 /* Debug */,
+				EAEDFDE81EA706D000031530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEDFDE91EA706D000031530 /* Build configuration list for PBXNativeTarget "YHWeatherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEDFDEA1EA706D000031530 /* Debug */,
+				EAEDFDEB1EA706D000031530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAEDFDCA1EA706D000031530 /* Project object */;
+}
