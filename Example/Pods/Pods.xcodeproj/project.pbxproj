@@ -10,25 +10,24 @@
 		0A9BD05950B16C5219FF29DBAC7D20A2 /* HQDBDecodeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0C69300130C4B7C7841C72A6747814 /* HQDBDecodeUtilities.m */; };
 		0D8087100B841CAC8991080AF3040727 /* HQDBDecodeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EC97E86F5582EEDA89EC5D3DF22C3F /* HQDBDecodeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16785DD1684414F94C16078BEA217752 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D1C3807ADD5EAAAEC1A5C0342FA6B2 /* YYModel.framework */; };
-		181AC46EFF95854FAB18BF6AE8F608CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C0EB03D421275EE787D2DBF1CF320E /* Foundation.framework */; };
 		21DCE2009156750C2761B1672D2D0350 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4EE7BBFAEF166BBF466E38314108B2 /* NSObject+YYModel.m */; };
 		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA62F4B5EDBBBEF8805A01C90C1FB33 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AF0DBFFE4A4EBD9A3EDC3FB17FA46F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C0EB03D421275EE787D2DBF1CF320E /* Foundation.framework */; };
 		337F183E94520B85F0264CACE93968B1 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B913E190488B085CA13B02794A0D36 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34BF5B8DFDA674FA5F4B8E75C1E4676D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C0EB03D421275EE787D2DBF1CF320E /* Foundation.framework */; };
 		35C71BADE52AEDF39BFD0FEA49689D06 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D49042C1D1DF7A674648DBA01C114B6 /* CoreFoundation.framework */; };
 		36B7EFD99C52F961A48656DB5FCEE9D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C0EB03D421275EE787D2DBF1CF320E /* Foundation.framework */; };
 		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4ED3A99D026119704803F5EC41D8F /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8EDC76330223964F54FC6657F1A049 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42CBE46A4A42CA94B11F0674F6BD7F02 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5A0A6A75F1A63BC9D418FF14AC1C12 /* FMDB.framework */; };
 		47BF81F59A58EC46575A740A893E596B /* NSObject+HQDBDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC668D80FAA97B2F892C5FAB8CF5757 /* NSObject+HQDBDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528D3DEDDA2142EAD62AEC34042141C3 /* Pods-YHDataModelDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB0203831298B567D170D15B6B2D84A /* Pods-YHDataModelDemo-dummy.m */; };
 		698CD9F09341FCB217E2C844AD0BD9D4 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4369809E72D117D00AB6D7D531DFC401 /* YYModel-dummy.m */; };
 		6DC2E032E39EF921E25E608EF3100D21 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D12BC90912BB5F31D95606DF9354B7 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		856087D60C42AA6D5DE7448D4C98588F /* HQDBDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3825B32D3CD0249CCA5E33BC7ACC7BE /* HQDBDecode-dummy.m */; };
 		85AB0BBD74CEBD13B23571B3A79AD873 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CCAD28B05E08953FCB269A13902AE8 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87AB097372A9CA2335EB38ED84915D92 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37892209CF65701F4AA9FB6CEDA87EB2 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AD95E4535951E056601FFBC5C1D59F94 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8CBBFBFC6A3366396B8EA9D63A1CE617 /* Pods-YHWeatherDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8060C48D9147DEFC1C209334A6782CF /* Pods-YHWeatherDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DDDAA199412EFB2FEC9E213826BAA64 /* Pods-YHWeatherDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8EE8E8E8388D731D0D8DCD593209FB /* Pods-YHWeatherDemo-dummy.m */; };
 		960AF814EECF0412C8FBE7E97BAA527D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C0EB03D421275EE787D2DBF1CF320E /* Foundation.framework */; };
 		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B95FA317BA6735C2EF464017FF07F0 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 21889E370C54D15CD27403D30876E7A7 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +35,7 @@
 		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD709A75E6608B955AED7D22949124B /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0F82122BD56941E102E5278AC6EDBA /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC65062D1DEB6B71B16817FCFBD55778 /* HQDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BBE5CD910B16A890D0F45934D1D1A8 /* HQDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C011DBE9C805A640E2D0CF31DDC2835F /* Pods-YHDataModelDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1C98F52F712CCD9E54FD09107933D3 /* Pods-YHDataModelDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C14EEE2402A020900C4DD5777301EE76 /* HQDBDecode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F638D5E8D9EF3F8AA7ED7DF65F2EB4D /* HQDBDecode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A644BF19CA0181D6C1AB9534AAF6692A /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C7604E40F755305CB096B965BE732657 /* HQDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC30CF3135EE3660D2E88FFF7D8E7EF1 /* HQDBHelper.m */; };
@@ -56,26 +56,26 @@
 			remoteGlobalIDString = 1FC66236803F068265642186C0409B6E;
 			remoteInfo = YYModel;
 		};
-		4B705BB006BB99D9AC0602E685B8C9D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC66236803F068265642186C0409B6E;
-			remoteInfo = YYModel;
-		};
-		763D4013A9AC133D05525AD4CA79FF74 /* PBXContainerItemProxy */ = {
+		349954D6AC7CB8E26978799E9FBB1532 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
 			remoteInfo = FMDB;
 		};
-		B458523F22E9659641A3682AE48A1BD9 /* PBXContainerItemProxy */ = {
+		9F0F838F3C7B4D3F6BDD22A79BD4D0A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 92D94EB6CE757DA3DD903AFAD9C29594;
 			remoteInfo = HQDBDecode;
+		};
+		D68138AA05E487BAEFC22B92D115399D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC66236803F068265642186C0409B6E;
+			remoteInfo = YYModel;
 		};
 		FC6811CF0131E968D2A14A42F1A2BDE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -87,47 +87,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F9BCAAECB9440408D9F0B9C1A553B4 /* HQDBDecode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HQDBDecode.framework; path = HQDBDecode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EC97E86F5582EEDA89EC5D3DF22C3F /* HQDBDecodeUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HQDBDecodeUtilities.h; path = Classes/HQDBDecodeUtilities.h; sourceTree = "<group>"; };
-		0589EA377A1BEC7A3311B6B8DE1D2303 /* Pods-YHWeatherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHWeatherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		06225F47F47FE4E55AB0CECFD66C4C33 /* Pods-YHDataModelDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YHDataModelDemo.modulemap"; sourceTree = "<group>"; };
 		09C235DA819D79C3FAEB493CB4455BF6 /* HQDBDecode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQDBDecode.xcconfig; sourceTree = "<group>"; };
-		1889EBE58C47F6CD244DB71D5B96D08D /* Pods-YHWeatherDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHWeatherDemo-resources.sh"; sourceTree = "<group>"; };
-		1CCB2CE2710360034DEEB6D9D39F7D0D /* Pods-YHWeatherDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YHWeatherDemo.modulemap"; sourceTree = "<group>"; };
+		0EF56256C335CF960E628D381AA877B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F638D5E8D9EF3F8AA7ED7DF65F2EB4D /* HQDBDecode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQDBDecode-umbrella.h"; sourceTree = "<group>"; };
 		21889E370C54D15CD27403D30876E7A7 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
-		24BE8FC72C30CC391B11801437C95A5E /* Pods-YHWeatherDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHWeatherDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		25867EFB02AA1B6B8AE4953914C47B64 /* Pods-YHWeatherDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHWeatherDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		262BE763E6AC3DE9F1927E41A6894362 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		2F4EE7BBFAEF166BBF466E38314108B2 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		309F9A324804C281FCF8E10C0B94E723 /* Pods-YHDataModelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHDataModelDemo.release.xcconfig"; sourceTree = "<group>"; };
 		328F38A3F67445F50E54502A5D0F792A /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37892209CF65701F4AA9FB6CEDA87EB2 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
+		3C4ED962F68B4D60FCE90349A34C2D59 /* Pods-YHDataModelDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHDataModelDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D49042C1D1DF7A674648DBA01C114B6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D5A0A6A75F1A63BC9D418FF14AC1C12 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/FMDB.framework; sourceTree = DEVELOPER_DIR; };
 		427C565979C42439B64830B5592B061B /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
 		4369809E72D117D00AB6D7D531DFC401 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
-		44FDAB49BAFED6B4ACF9A17AD50C90FC /* Pods_YHWeatherDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHWeatherDemo.framework; path = "Pods-YHWeatherDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4768591FE35300BE97869FD4A16B7296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CD709A75E6608B955AED7D22949124B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		5D7CC0D9EC72ED835213E2D4F900798F /* Pods-YHWeatherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHWeatherDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5D8EE8E8E8388D731D0D8DCD593209FB /* Pods-YHWeatherDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHWeatherDemo-dummy.m"; sourceTree = "<group>"; };
+		5F24CCB562064744CA6F163FADC66234 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F4ED3A99D026119704803F5EC41D8F /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		64FA26CF6DFA00956D761DB5234F9A09 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
-		7578992F4231FF1F9133AF7861DBDF2D /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		658B09CA0B1510841D17B84499D97B97 /* Pods-YHDataModelDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHDataModelDemo-frameworks.sh"; sourceTree = "<group>"; };
 		7AB40FCF9E81FE1EA9CEBD86490C444D /* HQDBDecode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQDBDecode-prefix.pch"; sourceTree = "<group>"; };
 		7C7540824BB1453C018BAC47BD69B424 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		853A875BC0BC3C0F3A67EFEC4AAAC6DF /* HQDBDecode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HQDBDecode.modulemap; sourceTree = "<group>"; };
 		8629889EA07684001321490C5030ACA8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		8D8EDC76330223964F54FC6657F1A049 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
-		92654FB0C0F13B77DCE5C593D5F123AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BB59B9AF34A45BCF94445AB51B7B883 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A644BF19CA0181D6C1AB9534AAF6692A /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		A67EAE2CB2FE30A773F9855FB5FACAEF /* Pods-YHDataModelDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHDataModelDemo-resources.sh"; sourceTree = "<group>"; };
 		A9D1C3807ADD5EAAAEC1A5C0342FA6B2 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD95E4535951E056601FFBC5C1D59F94 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		AFEE655C5965C8EB2F4CC04D80A422AE /* YYModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYModel.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/YYModel.framework; sourceTree = DEVELOPER_DIR; };
-		B169D31FA3B7145FA139297E8F4C911A /* Pods-YHWeatherDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHWeatherDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B046A1CF27A9EA17FC6C80A7B3ADE232 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56EDE219C511ED1F065074AEE4F2B80 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FMDB.modulemap; sourceTree = "<group>"; };
 		BE0C69300130C4B7C7841C72A6747814 /* HQDBDecodeUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HQDBDecodeUtilities.m; path = Classes/HQDBDecodeUtilities.m; sourceTree = "<group>"; };
+		BE1C98F52F712CCD9E54FD09107933D3 /* Pods-YHDataModelDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHDataModelDemo-umbrella.h"; sourceTree = "<group>"; };
 		C33CCF95388DAA87B3EC2AC75DB9C779 /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YYModel.modulemap; sourceTree = "<group>"; };
 		C5A39446D2CD5E41E7DC3876A818CAB9 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
 		C670E4F410E1458A233AB7C4C44A914E /* NSObject+HQDBDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HQDBDecode.m"; path = "Classes/NSObject+HQDBDecode.m"; sourceTree = "<group>"; };
@@ -136,26 +133,29 @@
 		CEC668D80FAA97B2F892C5FAB8CF5757 /* NSObject+HQDBDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HQDBDecode.h"; path = "Classes/NSObject+HQDBDecode.h"; sourceTree = "<group>"; };
 		CF0F82122BD56941E102E5278AC6EDBA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		D3B913E190488B085CA13B02794A0D36 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		D4170CD5125FEA61905C1A40CBAC41AC /* Pods-YHDataModelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHDataModelDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D4C0EB03D421275EE787D2DBF1CF320E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4F9B06EC6841CAC4A0F510E5938B2F8 /* Pods-YHDataModelDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHDataModelDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8741B2EBF406F7253A75CF12C029FC0 /* HQDBDecode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HQDBDecode.framework; path = HQDBDecode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BBE5CD910B16A890D0F45934D1D1A8 /* HQDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HQDBHelper.h; path = Classes/HQDBHelper.h; sourceTree = "<group>"; };
 		D9D12BC90912BB5F31D95606DF9354B7 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		DAB0203831298B567D170D15B6B2D84A /* Pods-YHDataModelDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHDataModelDemo-dummy.m"; sourceTree = "<group>"; };
 		DC30CF3135EE3660D2E88FFF7D8E7EF1 /* HQDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HQDBHelper.m; path = Classes/HQDBHelper.m; sourceTree = "<group>"; };
 		DFA62F4B5EDBBBEF8805A01C90C1FB33 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		E1A14BAD460776B959D80FCDDF66D65A /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
 		E2DBE619903C915781139D4356DB39AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3825B32D3CD0249CCA5E33BC7ACC7BE /* HQDBDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HQDBDecode-dummy.m"; sourceTree = "<group>"; };
-		E8060C48D9147DEFC1C209334A6782CF /* Pods-YHWeatherDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHWeatherDemo-umbrella.h"; sourceTree = "<group>"; };
 		E8FB16EE75E58701140307AA3904FCB4 /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
 		F2CCAD28B05E08953FCB269A13902AE8 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
-		F8EDD4B15BBD093703D9C5CFE66B6940 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99F518CC9DEC19CDA24F46B30AF7FBE /* Pods_YHDataModelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHDataModelDemo.framework; path = "Pods-YHDataModelDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B1925350D56C37D77BB25E4B9AE2074B /* Frameworks */ = {
+		A810A321A42BCE458D201A083B8DB617 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181AC46EFF95854FAB18BF6AE8F608CC /* Foundation.framework in Frameworks */,
+				34BF5B8DFDA674FA5F4B8E75C1E4676D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +191,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D42EDE29A500F096578DAC7E30FD8D /* Pods-YHDataModelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0EF56256C335CF960E628D381AA877B5 /* Info.plist */,
+				06225F47F47FE4E55AB0CECFD66C4C33 /* Pods-YHDataModelDemo.modulemap */,
+				D4F9B06EC6841CAC4A0F510E5938B2F8 /* Pods-YHDataModelDemo-acknowledgements.markdown */,
+				3C4ED962F68B4D60FCE90349A34C2D59 /* Pods-YHDataModelDemo-acknowledgements.plist */,
+				DAB0203831298B567D170D15B6B2D84A /* Pods-YHDataModelDemo-dummy.m */,
+				658B09CA0B1510841D17B84499D97B97 /* Pods-YHDataModelDemo-frameworks.sh */,
+				A67EAE2CB2FE30A773F9855FB5FACAEF /* Pods-YHDataModelDemo-resources.sh */,
+				BE1C98F52F712CCD9E54FD09107933D3 /* Pods-YHDataModelDemo-umbrella.h */,
+				D4170CD5125FEA61905C1A40CBAC41AC /* Pods-YHDataModelDemo.debug.xcconfig */,
+				309F9A324804C281FCF8E10C0B94E723 /* Pods-YHDataModelDemo.release.xcconfig */,
+			);
+			name = "Pods-YHDataModelDemo";
+			path = "Target Support Files/Pods-YHDataModelDemo";
+			sourceTree = "<group>";
+		};
 		22431F20A044397422555CF70DB06360 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +251,17 @@
 			path = "../Target Support Files/YYModel";
 			sourceTree = "<group>";
 		};
+		7729CD20732C8C4ECA3F1B430C9E20E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F24CCB562064744CA6F163FADC66234 /* FMDB.framework */,
+				D8741B2EBF406F7253A75CF12C029FC0 /* HQDBDecode.framework */,
+				F99F518CC9DEC19CDA24F46B30AF7FBE /* Pods_YHDataModelDemo.framework */,
+				B046A1CF27A9EA17FC6C80A7B3ADE232 /* YYModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7CF1765E06149982350D1CC2708B2FA6 /* YYModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,8 +282,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				22431F20A044397422555CF70DB06360 /* Frameworks */,
 				A6A8696AF962EEEE6C079CF9C3BC9D5F /* Pods */,
-				D679B56C5568209C4EE89733D9A36E0A /* Products */,
-				CCC7074FF7322D625B62488F121F0A01 /* Targets Support Files */,
+				7729CD20732C8C4ECA3F1B430C9E20E3 /* Products */,
+				D7DDF330561508DF0BE9F039298CD76C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -304,41 +333,12 @@
 			path = FMDB;
 			sourceTree = "<group>";
 		};
-		CCC7074FF7322D625B62488F121F0A01 /* Targets Support Files */ = {
+		D7DDF330561508DF0BE9F039298CD76C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA18903AE655B011C551DA08D04024F1 /* Pods-YHWeatherDemo */,
+				00D42EDE29A500F096578DAC7E30FD8D /* Pods-YHDataModelDemo */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D679B56C5568209C4EE89733D9A36E0A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7578992F4231FF1F9133AF7861DBDF2D /* FMDB.framework */,
-				01F9BCAAECB9440408D9F0B9C1A553B4 /* HQDBDecode.framework */,
-				44FDAB49BAFED6B4ACF9A17AD50C90FC /* Pods_YHWeatherDemo.framework */,
-				F8EDD4B15BBD093703D9C5CFE66B6940 /* YYModel.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EA18903AE655B011C551DA08D04024F1 /* Pods-YHWeatherDemo */ = {
-			isa = PBXGroup;
-			children = (
-				92654FB0C0F13B77DCE5C593D5F123AC /* Info.plist */,
-				1CCB2CE2710360034DEEB6D9D39F7D0D /* Pods-YHWeatherDemo.modulemap */,
-				24BE8FC72C30CC391B11801437C95A5E /* Pods-YHWeatherDemo-acknowledgements.markdown */,
-				25867EFB02AA1B6B8AE4953914C47B64 /* Pods-YHWeatherDemo-acknowledgements.plist */,
-				5D8EE8E8E8388D731D0D8DCD593209FB /* Pods-YHWeatherDemo-dummy.m */,
-				B169D31FA3B7145FA139297E8F4C911A /* Pods-YHWeatherDemo-frameworks.sh */,
-				1889EBE58C47F6CD244DB71D5B96D08D /* Pods-YHWeatherDemo-resources.sh */,
-				E8060C48D9147DEFC1C209334A6782CF /* Pods-YHWeatherDemo-umbrella.h */,
-				5D7CC0D9EC72ED835213E2D4F900798F /* Pods-YHWeatherDemo.debug.xcconfig */,
-				0589EA377A1BEC7A3311B6B8DE1D2303 /* Pods-YHWeatherDemo.release.xcconfig */,
-			);
-			name = "Pods-YHWeatherDemo";
-			path = "Target Support Files/Pods-YHWeatherDemo";
 			sourceTree = "<group>";
 		};
 		F4C31DC694F76D7FF858828AAC51FB3C /* Support Files */ = {
@@ -408,37 +408,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70D695A83E8E418BD66FF2A97BF310BB /* Headers */ = {
+		E3513680C1592BEC096ADD30821AEC67 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CBBFBFC6A3366396B8EA9D63A1CE617 /* Pods-YHWeatherDemo-umbrella.h in Headers */,
+				C011DBE9C805A640E2D0CF31DDC2835F /* Pods-YHDataModelDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CE915219EF7B03192B904D78301A07B /* Pods-YHWeatherDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93DD59764D368F1B9C4569EDAB48DBD6 /* Build configuration list for PBXNativeTarget "Pods-YHWeatherDemo" */;
-			buildPhases = (
-				0A89BF66E2B0A253B5606433592CC3A9 /* Sources */,
-				B1925350D56C37D77BB25E4B9AE2074B /* Frameworks */,
-				70D695A83E8E418BD66FF2A97BF310BB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				34594E27741C85F7D0867C671835C9D6 /* PBXTargetDependency */,
-				6EACB6FB574C7DB5BBB89AD1041E256A /* PBXTargetDependency */,
-				491712026F58AF563E4010EB6FAF92B2 /* PBXTargetDependency */,
-			);
-			name = "Pods-YHWeatherDemo";
-			productName = "Pods-YHWeatherDemo";
-			productReference = 44FDAB49BAFED6B4ACF9A17AD50C90FC /* Pods_YHWeatherDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		1FC66236803F068265642186C0409B6E /* YYModel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B4B0D8F2ACEE09AF4ACC3B2473BBF7F /* Build configuration list for PBXNativeTarget "YYModel" */;
@@ -453,7 +433,7 @@
 			);
 			name = YYModel;
 			productName = YYModel;
-			productReference = F8EDD4B15BBD093703D9C5CFE66B6940 /* YYModel.framework */;
+			productReference = B046A1CF27A9EA17FC6C80A7B3ADE232 /* YYModel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		251BAD17812F7EBF6532EACF66F941C3 /* FMDB */ = {
@@ -470,7 +450,27 @@
 			);
 			name = FMDB;
 			productName = FMDB;
-			productReference = 7578992F4231FF1F9133AF7861DBDF2D /* FMDB.framework */;
+			productReference = 5F24CCB562064744CA6F163FADC66234 /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3528AF18258764F3AABE5D082D08C9C8 /* Pods-YHDataModelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E69A7B682CADD7F422678AA25E5DC4 /* Build configuration list for PBXNativeTarget "Pods-YHDataModelDemo" */;
+			buildPhases = (
+				4E43320CA26B7890EA5E01D63345C81F /* Sources */,
+				A810A321A42BCE458D201A083B8DB617 /* Frameworks */,
+				E3513680C1592BEC096ADD30821AEC67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02AF001A535978B157792B4A2FA2B16B /* PBXTargetDependency */,
+				6723A0A832243E5CDE6B73E6B0FF86DF /* PBXTargetDependency */,
+				5AD7B770BB4D64CEB3AF2F749A7F2E85 /* PBXTargetDependency */,
+			);
+			name = "Pods-YHDataModelDemo";
+			productName = "Pods-YHDataModelDemo";
+			productReference = F99F518CC9DEC19CDA24F46B30AF7FBE /* Pods_YHDataModelDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		92D94EB6CE757DA3DD903AFAD9C29594 /* HQDBDecode */ = {
@@ -489,7 +489,7 @@
 			);
 			name = HQDBDecode;
 			productName = HQDBDecode;
-			productReference = 01F9BCAAECB9440408D9F0B9C1A553B4 /* HQDBDecode.framework */;
+			productReference = D8741B2EBF406F7253A75CF12C029FC0 /* HQDBDecode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -509,24 +509,24 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D679B56C5568209C4EE89733D9A36E0A /* Products */;
+			productRefGroup = 7729CD20732C8C4ECA3F1B430C9E20E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				251BAD17812F7EBF6532EACF66F941C3 /* FMDB */,
 				92D94EB6CE757DA3DD903AFAD9C29594 /* HQDBDecode */,
-				0CE915219EF7B03192B904D78301A07B /* Pods-YHWeatherDemo */,
+				3528AF18258764F3AABE5D082D08C9C8 /* Pods-YHDataModelDemo */,
 				1FC66236803F068265642186C0409B6E /* YYModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A89BF66E2B0A253B5606433592CC3A9 /* Sources */ = {
+		4E43320CA26B7890EA5E01D63345C81F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DDDAA199412EFB2FEC9E213826BAA64 /* Pods-YHWeatherDemo-dummy.m in Sources */,
+				528D3DEDDA2142EAD62AEC34042141C3 /* Pods-YHDataModelDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,23 +567,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		02AF001A535978B157792B4A2FA2B16B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = 349954D6AC7CB8E26978799E9FBB1532 /* PBXContainerItemProxy */;
+		};
 		0982F75C915DA9A8F956FC6C7998BF09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
 			targetProxy = FC6811CF0131E968D2A14A42F1A2BDE3 /* PBXContainerItemProxy */;
-		};
-		34594E27741C85F7D0867C671835C9D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
-			targetProxy = 763D4013A9AC133D05525AD4CA79FF74 /* PBXContainerItemProxy */;
-		};
-		491712026F58AF563E4010EB6FAF92B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 1FC66236803F068265642186C0409B6E /* YYModel */;
-			targetProxy = 4B705BB006BB99D9AC0602E685B8C9D9 /* PBXContainerItemProxy */;
 		};
 		56D0BC9000B1FFF3885F1441BBF6693B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -591,60 +585,57 @@
 			target = 1FC66236803F068265642186C0409B6E /* YYModel */;
 			targetProxy = 0E96265421ADD65BE915ABCA6D2C62EA /* PBXContainerItemProxy */;
 		};
-		6EACB6FB574C7DB5BBB89AD1041E256A /* PBXTargetDependency */ = {
+		5AD7B770BB4D64CEB3AF2F749A7F2E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 1FC66236803F068265642186C0409B6E /* YYModel */;
+			targetProxy = D68138AA05E487BAEFC22B92D115399D /* PBXContainerItemProxy */;
+		};
+		6723A0A832243E5CDE6B73E6B0FF86DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HQDBDecode;
 			target = 92D94EB6CE757DA3DD903AFAD9C29594 /* HQDBDecode */;
-			targetProxy = B458523F22E9659641A3682AE48A1BD9 /* PBXContainerItemProxy */;
+			targetProxy = 9F0F838F3C7B4D3F6BDD22A79BD4D0A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		09C1257FE86487B92C2C89F747FEE8C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4170CD5125FEA61905C1A40CBAC41AC /* Pods-YHDataModelDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YHDataModelDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHDataModelDemo/Pods-YHDataModelDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YHDataModelDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -676,7 +667,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -746,6 +737,41 @@
 			};
 			name = Release;
 		};
+		9606091EE7D3044D6D7EB07AB8CEAEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309F9A324804C281FCF8E10C0B94E723 /* Pods-YHDataModelDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YHDataModelDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHDataModelDemo/Pods-YHDataModelDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YHDataModelDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		AF96A1032C1088D2DEE852526C624C89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09C235DA819D79C3FAEB493CB4455BF6 /* HQDBDecode.xcconfig */;
@@ -777,73 +803,47 @@
 			};
 			name = Release;
 		};
-		B71DCF477540C392148D6A222906DB7A /* Release */ = {
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0589EA377A1BEC7A3311B6B8DE1D2303 /* Pods-YHWeatherDemo.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YHWeatherDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YHWeatherDemo/Pods-YHWeatherDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YHWeatherDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BC46E801DA1538E27C0E5BC528E62416 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D7CC0D9EC72ED835213E2D4F900798F /* Pods-YHWeatherDemo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YHWeatherDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YHWeatherDemo/Pods-YHWeatherDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YHWeatherDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
@@ -946,8 +946,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -979,11 +979,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93DD59764D368F1B9C4569EDAB48DBD6 /* Build configuration list for PBXNativeTarget "Pods-YHWeatherDemo" */ = {
+		66E69A7B682CADD7F422678AA25E5DC4 /* Build configuration list for PBXNativeTarget "Pods-YHDataModelDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC46E801DA1538E27C0E5BC528E62416 /* Debug */,
-				B71DCF477540C392148D6A222906DB7A /* Release */,
+				09C1257FE86487B92C2C89F747FEE8C3 /* Debug */,
+				9606091EE7D3044D6D7EB07AB8CEAEF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

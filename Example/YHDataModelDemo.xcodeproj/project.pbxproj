@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA10FF6C10E3ADB4B8E59706 /* Pods_YHDataModelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D1402CD01539380E31419 /* Pods_YHDataModelDemo.framework */; };
+		EAEDFE041EA7391800031530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE031EA7391800031530 /* main.m */; };
+		EAEDFE071EA7391800031530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE061EA7391800031530 /* AppDelegate.m */; };
+		EAEDFE0A1EA7391800031530 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE091EA7391800031530 /* ViewController.m */; };
+		EAEDFE0D1EA7391800031530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEDFE0B1EA7391800031530 /* Main.storyboard */; };
+		EAEDFE0F1EA7391800031530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEDFE0E1EA7391800031530 /* Assets.xcassets */; };
+		EAEDFE121EA7391800031530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEDFE101EA7391800031530 /* LaunchScreen.storyboard */; };
+		EAEDFE1E1EA739A500031530 /* YHTideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE1B1EA739A500031530 /* YHTideModel.m */; };
+		EAEDFE1F1EA739A500031530 /* YHWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE1D1EA739A500031530 /* YHWeatherModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2968BE9A7D24572320EF973A /* Pods-YHDataModelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHDataModelDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHDataModelDemo/Pods-YHDataModelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B153E3CA78261F48A68BE544 /* Pods-YHDataModelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHDataModelDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHDataModelDemo/Pods-YHDataModelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B55D1402CD01539380E31419 /* Pods_YHDataModelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHDataModelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEDFDFF1EA7391800031530 /* YHDataModelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHDataModelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEDFE031EA7391800031530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAEDFE051EA7391800031530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAEDFE061EA7391800031530 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAEDFE081EA7391800031530 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAEDFE091EA7391800031530 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAEDFE0C1EA7391800031530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAEDFE0E1EA7391800031530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAEDFE111EA7391800031530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAEDFE131EA7391800031530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAEDFE1A1EA739A500031530 /* YHTideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTideModel.h; sourceTree = "<group>"; };
+		EAEDFE1B1EA739A500031530 /* YHTideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTideModel.m; sourceTree = "<group>"; };
+		EAEDFE1C1EA739A500031530 /* YHWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHWeatherModel.h; sourceTree = "<group>"; };
+		EAEDFE1D1EA739A500031530 /* YHWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHWeatherModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAEDFDFC1EA7391800031530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA10FF6C10E3ADB4B8E59706 /* Pods_YHDataModelDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A6E3A7740581501DD1C73F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B153E3CA78261F48A68BE544 /* Pods-YHDataModelDemo.debug.xcconfig */,
+				2968BE9A7D24572320EF973A /* Pods-YHDataModelDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CED3DEB1260A1B5D7B79B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55D1402CD01539380E31419 /* Pods_YHDataModelDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAEDFDF61EA7391800031530 = {
+			isa = PBXGroup;
+			children = (
+				EAEDFE011EA7391800031530 /* YHDataModelDemo */,
+				EAEDFE001EA7391800031530 /* Products */,
+				31A6E3A7740581501DD1C73F /* Pods */,
+				9CED3DEB1260A1B5D7B79B40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAEDFE001EA7391800031530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDFDFF1EA7391800031530 /* YHDataModelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEDFE011EA7391800031530 /* YHDataModelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDFE191EA739A500031530 /* Classes */,
+				EAEDFE051EA7391800031530 /* AppDelegate.h */,
+				EAEDFE061EA7391800031530 /* AppDelegate.m */,
+				EAEDFE081EA7391800031530 /* ViewController.h */,
+				EAEDFE091EA7391800031530 /* ViewController.m */,
+				EAEDFE0B1EA7391800031530 /* Main.storyboard */,
+				EAEDFE0E1EA7391800031530 /* Assets.xcassets */,
+				EAEDFE101EA7391800031530 /* LaunchScreen.storyboard */,
+				EAEDFE131EA7391800031530 /* Info.plist */,
+				EAEDFE021EA7391800031530 /* Supporting Files */,
+			);
+			path = YHDataModelDemo;
+			sourceTree = "<group>";
+		};
+		EAEDFE021EA7391800031530 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDFE031EA7391800031530 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAEDFE191EA739A500031530 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDFE1A1EA739A500031530 /* YHTideModel.h */,
+				EAEDFE1B1EA739A500031530 /* YHTideModel.m */,
+				EAEDFE1C1EA739A500031530 /* YHWeatherModel.h */,
+				EAEDFE1D1EA739A500031530 /* YHWeatherModel.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAEDFDFE1EA7391800031530 /* YHDataModelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEDFE161EA7391800031530 /* Build configuration list for PBXNativeTarget "YHDataModelDemo" */;
+			buildPhases = (
+				29EB89285F278404C450A7AA /* [CP] Check Pods Manifest.lock */,
+				EAEDFDFB1EA7391800031530 /* Sources */,
+				EAEDFDFC1EA7391800031530 /* Frameworks */,
+				EAEDFDFD1EA7391800031530 /* Resources */,
+				FBA5EECE097E3D5E7D76C65E /* [CP] Embed Pods Frameworks */,
+				1713B907A3C41F10518A4F5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHDataModelDemo;
+			productName = YHDataModelDemo;
+			productReference = EAEDFDFF1EA7391800031530 /* YHDataModelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAEDFDF71EA7391800031530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘欢庆";
+				TargetAttributes = {
+					EAEDFDFE1EA7391800031530 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = G25YSPXR6H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EAEDFDFA1EA7391800031530 /* Build configuration list for PBXProject "YHDataModelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAEDFDF61EA7391800031530;
+			productRefGroup = EAEDFE001EA7391800031530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAEDFDFE1EA7391800031530 /* YHDataModelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAEDFDFD1EA7391800031530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEDFE121EA7391800031530 /* LaunchScreen.storyboard in Resources */,
+				EAEDFE0F1EA7391800031530 /* Assets.xcassets in Resources */,
+				EAEDFE0D1EA7391800031530 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1713B907A3C41F10518A4F5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHDataModelDemo/Pods-YHDataModelDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29EB89285F278404C450A7AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA5EECE097E3D5E7D76C65E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHDataModelDemo/Pods-YHDataModelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAEDFDFB1EA7391800031530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEDFE1E1EA739A500031530 /* YHTideModel.m in Sources */,
+				EAEDFE0A1EA7391800031530 /* ViewController.m in Sources */,
+				EAEDFE1F1EA739A500031530 /* YHWeatherModel.m in Sources */,
+				EAEDFE071EA7391800031530 /* AppDelegate.m in Sources */,
+				EAEDFE041EA7391800031530 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAEDFE0B1EA7391800031530 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEDFE0C1EA7391800031530 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAEDFE101EA7391800031530 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEDFE111EA7391800031530 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAEDFE141EA7391800031530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAEDFE151EA7391800031530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAEDFE171EA7391800031530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B153E3CA78261F48A68BE544 /* Pods-YHDataModelDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G25YSPXR6H;
+				INFOPLIST_FILE = YHDataModelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiuHuanQing.YHDataModelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAEDFE181EA7391800031530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2968BE9A7D24572320EF973A /* Pods-YHDataModelDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G25YSPXR6H;
+				INFOPLIST_FILE = YHDataModelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiuHuanQing.YHDataModelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAEDFDFA1EA7391800031530 /* Build configuration list for PBXProject "YHDataModelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEDFE141EA7391800031530 /* Debug */,
+				EAEDFE151EA7391800031530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEDFE161EA7391800031530 /* Build configuration list for PBXNativeTarget "YHDataModelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEDFE171EA7391800031530 /* Debug */,
+				EAEDFE181EA7391800031530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAEDFDF71EA7391800031530 /* Project object */;
+}
