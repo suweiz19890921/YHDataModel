@@ -94,7 +94,11 @@
         {
             num = @(-1);
         }
-        if([p isEqualToString:@"ts"])
+        if([p isEqualToString:@"geo"])
+        {
+            weather.geohash = aData[index];
+        }
+        else if([p isEqualToString:@"ts"])
         {
             weather.ts = [num longLongValue];
         }

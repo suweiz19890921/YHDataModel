@@ -133,6 +133,7 @@ SOLOT的公共数据模型.
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "HQDBDecode", :git => "ssh://git@git.solot.co:10022/liuhuanqing/HQDBDecode.git"
+  s.dependency "HQDBDecode", "~> 0.0.6"
+
 
 end
