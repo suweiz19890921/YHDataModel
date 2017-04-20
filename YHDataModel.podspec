@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YHDataModel"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "SOLOT的公共数据模型"
 
   # This description is used to generate tags and improve search results.
@@ -133,7 +133,7 @@ SOLOT的公共数据模型.
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "HQDBDecode", "~> 0.0.6"
+  s.dependency "HQDBDecode"
 
 
 end
