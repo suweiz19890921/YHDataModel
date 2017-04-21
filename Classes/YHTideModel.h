@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface YHTideModel : NSObject
-@property (nonatomic,strong) NSString *ID;
 @property (nonatomic,strong) NSString *latlng;
 @property (nonatomic,strong) NSArray *hc;
 @property (nonatomic,assign) float datum;

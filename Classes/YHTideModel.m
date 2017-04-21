@@ -10,11 +10,10 @@
 
 @implementation YHTideModel
 
-
 #pragma mark - 数据库模块
 + (nullable NSArray<NSString *> *)hq_propertyPrimarykeyList;
 {
-    return @[@"ID"];
+    return @[@"latlng"];
 }
 
 /** 所属库名称 该字段是生成数据库的必要字段*/
