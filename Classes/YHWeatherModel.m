@@ -7,6 +7,8 @@
 //
 
 #import "YHWeatherModel.h"
+#import "NSObject+HQDBDecode.h"
+
 @implementation YHWeatherModel
 
 + (NSArray <YHWeatherModel *> *)weatherWithJSON:(NSDictionary *)json withGeohash:(NSString *)geohash
