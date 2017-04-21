@@ -36,20 +36,8 @@
 @property (nonatomic) float wvper;//风浪周期
 @property (nonatomic) float snow;//降雪量
 
-/** 解析天气的JSON数据
- *  JSON数据格式
- *  {
- *   header:[ts,tmp,gust,wind...]
- *   data:[时间戳,12,184,4.5...]
- *  }
- */
-+ (NSArray <YHWeatherModel *> *)weatherWithJSON:(NSDictionary *)json withGeohash:(NSString *)geohash;
 
 /** 解析一条数据 格式 data:[时间戳,12,184,4.5...]   propertys [ts,tmp,gust,wind...] */
 + (void)aDatahandler:(NSArray *)aData propertys:(NSArray *)propertys weather:(YHWeatherModel *)weather;
-
-+ (NSArray <YHWeatherModel *> *)timeWeather:(NSString *)geohash;
-
-+ (NSArray <NSArray<YHWeatherModel *> *> *)dayWeather:(NSString *)geohash;
 
 @end
