@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA10FF6C10E3ADB4B8E59706 /* Pods_YHDataModelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D1402CD01539380E31419 /* Pods_YHDataModelDemo.framework */; };
+		EA23D9C41EAA370400C5DD79 /* SSTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA23D9C31EAA370400C5DD79 /* SSTModel.m */; };
 		EAEDFE041EA7391800031530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE031EA7391800031530 /* main.m */; };
 		EAEDFE071EA7391800031530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE061EA7391800031530 /* AppDelegate.m */; };
 		EAEDFE0A1EA7391800031530 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE091EA7391800031530 /* ViewController.m */; };
@@ -22,6 +23,8 @@
 		2968BE9A7D24572320EF973A /* Pods-YHDataModelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHDataModelDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHDataModelDemo/Pods-YHDataModelDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B153E3CA78261F48A68BE544 /* Pods-YHDataModelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHDataModelDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHDataModelDemo/Pods-YHDataModelDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B55D1402CD01539380E31419 /* Pods_YHDataModelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHDataModelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA23D9C21EAA370400C5DD79 /* SSTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTModel.h; sourceTree = "<group>"; };
+		EA23D9C31EAA370400C5DD79 /* SSTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTModel.m; sourceTree = "<group>"; };
 		EAEDFDFF1EA7391800031530 /* YHDataModelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHDataModelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEDFE031EA7391800031530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAEDFE051EA7391800031530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				EAEDFE1B1EA739A500031530 /* YHTideModel.m */,
 				EAEDFE1C1EA739A500031530 /* YHWeatherModel.h */,
 				EAEDFE1D1EA739A500031530 /* YHWeatherModel.m */,
+				EA23D9C21EAA370400C5DD79 /* SSTModel.h */,
+				EA23D9C31EAA370400C5DD79 /* SSTModel.m */,
 			);
 			name = Classes;
 			path = ../../Classes;
@@ -249,6 +254,7 @@
 				EAEDFE0A1EA7391800031530 /* ViewController.m in Sources */,
 				EAEDFE1F1EA739A500031530 /* YHWeatherModel.m in Sources */,
 				EAEDFE071EA7391800031530 /* AppDelegate.m in Sources */,
+				EA23D9C41EAA370400C5DD79 /* SSTModel.m in Sources */,
 				EAEDFE041EA7391800031530 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
