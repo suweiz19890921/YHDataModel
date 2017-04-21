@@ -7,14 +7,13 @@
 //
 
 #import "YHWeatherModel.h"
-#import "NSObject+HQDBDecode.h"
 @implementation YHWeatherModel
 
 + (NSArray <YHWeatherModel *> *)weatherWithJSON:(NSDictionary *)json withGeohash:(NSString *)geohash
 {
     NSArray *propertys = [json objectForKey:@"header"];
     NSArray *data = [json objectForKey:@"data"];
-    if(propertys.count == 0 || data.count == 0 || propertys.count != data.count || geohash == nil) return nil;
+    if(propertys.count == 0 || data.count == 0 || geohash == nil) return nil;
     
     NSMutableArray *tws = [NSMutableArray arrayWithCapacity:data.count];
     for (NSArray *aData in data)
