@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YHAQIModel.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    YHAQIModel *xx = [[YHAQIModel alloc] initWithData:@[@"20170607",@(111)] withGeohash:@"xxxxxx"];
+    NSLog(@"xx");
 }
 
 

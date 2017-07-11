@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		DA10FF6C10E3ADB4B8E59706 /* Pods_YHDataModelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D1402CD01539380E31419 /* Pods_YHDataModelDemo.framework */; };
 		EA23D9C41EAA370400C5DD79 /* SSTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA23D9C31EAA370400C5DD79 /* SSTModel.m */; };
+		EA74BB231F14A70500764ECA /* YHVISModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74BB221F14A70500764ECA /* YHVISModel.m */; };
+		EA74BB261F14A7D500764ECA /* YHUVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74BB251F14A7D500764ECA /* YHUVModel.m */; };
+		EA74BB291F14A7F700764ECA /* YHPM25Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74BB281F14A7F700764ECA /* YHPM25Model.m */; };
+		EA74BB2C1F14A80600764ECA /* YHAQIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74BB2B1F14A80600764ECA /* YHAQIModel.m */; };
+		EA74BB2F1F14A87100764ECA /* YHSkyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74BB2E1F14A87100764ECA /* YHSkyModel.m */; };
 		EAEDFE041EA7391800031530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE031EA7391800031530 /* main.m */; };
 		EAEDFE071EA7391800031530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE061EA7391800031530 /* AppDelegate.m */; };
 		EAEDFE0A1EA7391800031530 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFE091EA7391800031530 /* ViewController.m */; };
@@ -25,6 +30,16 @@
 		B55D1402CD01539380E31419 /* Pods_YHDataModelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHDataModelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA23D9C21EAA370400C5DD79 /* SSTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTModel.h; sourceTree = "<group>"; };
 		EA23D9C31EAA370400C5DD79 /* SSTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTModel.m; sourceTree = "<group>"; };
+		EA74BB211F14A70500764ECA /* YHVISModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHVISModel.h; sourceTree = "<group>"; };
+		EA74BB221F14A70500764ECA /* YHVISModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHVISModel.m; sourceTree = "<group>"; };
+		EA74BB241F14A7D500764ECA /* YHUVModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUVModel.h; sourceTree = "<group>"; };
+		EA74BB251F14A7D500764ECA /* YHUVModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUVModel.m; sourceTree = "<group>"; };
+		EA74BB271F14A7F700764ECA /* YHPM25Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPM25Model.h; sourceTree = "<group>"; };
+		EA74BB281F14A7F700764ECA /* YHPM25Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPM25Model.m; sourceTree = "<group>"; };
+		EA74BB2A1F14A80600764ECA /* YHAQIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHAQIModel.h; sourceTree = "<group>"; };
+		EA74BB2B1F14A80600764ECA /* YHAQIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAQIModel.m; sourceTree = "<group>"; };
+		EA74BB2D1F14A87100764ECA /* YHSkyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSkyModel.h; sourceTree = "<group>"; };
+		EA74BB2E1F14A87100764ECA /* YHSkyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSkyModel.m; sourceTree = "<group>"; };
 		EAEDFDFF1EA7391800031530 /* YHDataModelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHDataModelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEDFE031EA7391800031530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAEDFE051EA7391800031530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +137,16 @@
 				EAEDFE1D1EA739A500031530 /* YHWeatherModel.m */,
 				EA23D9C21EAA370400C5DD79 /* SSTModel.h */,
 				EA23D9C31EAA370400C5DD79 /* SSTModel.m */,
+				EA74BB211F14A70500764ECA /* YHVISModel.h */,
+				EA74BB221F14A70500764ECA /* YHVISModel.m */,
+				EA74BB241F14A7D500764ECA /* YHUVModel.h */,
+				EA74BB251F14A7D500764ECA /* YHUVModel.m */,
+				EA74BB271F14A7F700764ECA /* YHPM25Model.h */,
+				EA74BB281F14A7F700764ECA /* YHPM25Model.m */,
+				EA74BB2A1F14A80600764ECA /* YHAQIModel.h */,
+				EA74BB2B1F14A80600764ECA /* YHAQIModel.m */,
+				EA74BB2D1F14A87100764ECA /* YHSkyModel.h */,
+				EA74BB2E1F14A87100764ECA /* YHSkyModel.m */,
 			);
 			name = Classes;
 			path = ../../Classes;
@@ -252,8 +277,13 @@
 			files = (
 				EAEDFE1E1EA739A500031530 /* YHTideModel.m in Sources */,
 				EAEDFE0A1EA7391800031530 /* ViewController.m in Sources */,
+				EA74BB231F14A70500764ECA /* YHVISModel.m in Sources */,
+				EA74BB261F14A7D500764ECA /* YHUVModel.m in Sources */,
+				EA74BB2C1F14A80600764ECA /* YHAQIModel.m in Sources */,
+				EA74BB2F1F14A87100764ECA /* YHSkyModel.m in Sources */,
 				EAEDFE1F1EA739A500031530 /* YHWeatherModel.m in Sources */,
 				EAEDFE071EA7391800031530 /* AppDelegate.m in Sources */,
+				EA74BB291F14A7F700764ECA /* YHPM25Model.m in Sources */,
 				EA23D9C41EAA370400C5DD79 /* SSTModel.m in Sources */,
 				EAEDFE041EA7391800031530 /* main.m in Sources */,
 			);
