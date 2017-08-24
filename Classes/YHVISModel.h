@@ -8,8 +8,5 @@
 
 #import "YHSkyModel.h"
 
-@interface YHVISModel : NSObject
-@property (nonatomic, strong) NSString *geohash;
-@property (nonatomic) long long ts;
-@property (nonatomic) long long val;
+@interface YHVISModel : YHSkyModel
 @end
