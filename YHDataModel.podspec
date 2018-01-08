@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YHDataModel"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "SOLOT的公共数据模型"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 SOLOT的公共数据模型.
                    DESC
 
-  s.homepage     = "http://192.168.1.249:10080/liuhuanqing/YHDataModel"
+  s.homepage     = "https://github.com/suweiz19890921/YHDataModel.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ SOLOT的公共数据模型.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "ssh://git@git.solot.co:10022/liuhuanqing/YHDataModel.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/suweiz19890921/YHDataModel.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
